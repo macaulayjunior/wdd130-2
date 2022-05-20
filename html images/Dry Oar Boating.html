@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)http://127.0.0.1:5500/wwr/assignment_04.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dry Oar Boating</title>
+    
+<link rel="stylesheet" href="./Dry Oar Boating_files/style.css"></head>
+<body>
+    <div id="content">
+    <header>
+        <a id="logo_link" href="http://127.0.0.1:5500/wwr/assignment_04.html">
+            <img class="logo" src="./Dry Oar Boating_files/logo.png" alt="Dry Oar Logo"> 
+        </a>
+        <nav>
+            <a href="http://127.0.0.1:5500/wwr/assignment_04.html">Home</a>
+            <a href="http://127.0.0.1:5500/wwr/assignment_04.html#">Page 2</a>
+            <a href="http://127.0.0.1:5500/wwr/site-plan-rafting.html">Site Plan</a>
+            <a href="http://127.0.0.1:5500/wwr/contactus.html">Contact Us</a>
+        </nav>
+        <div id="hero">
+            <div id="hero-box">
+                <img id="hero-img" ,="" src="./Dry Oar Boating_files/rsz_hero.png" alt="People enjoy rafting">
+                </div>
+                <section id="hero-msg">
+                    <h1 class="home-title">Have An Adventure</h1>
+                    <h4>Make Memories</h4>
+                    <div class="button-box">
+                        <a class="book" href="http://127.0.0.1:5500/wwr/contactus.html">Book Now</a>
+                    </div>
+
+                </section>
+
+        </div>
+        <main class="home-grid">
+            <section class="rivers-card">
+                <img class="card-img" src="./Dry Oar Boating_files/rsz_rivers.jpg" alt="river in forest">
+                <img class="icon" src="./Dry Oar Boating_files/river_icon.png" alt="river icon">
+                <h2>Rivers</h2>
+            </section>
+            <section class="camping-card">
+                <img class="card-img" src="./Dry Oar Boating_files/rsz_camping.jpg" alt="tent in mountain">
+                <img class="icon" src="./Dry Oar Boating_files/fire_icon.png" alt="fire icon">
+                <h2>Camping</h2>
+
+            </section>
+            <section class="rapid-cards">
+                <img class="card-img" src="./Dry Oar Boating_files/rsz_rapids.jpg" alt="rafting boat">
+                <img class="icons" src="./Dry Oar Boating_files/oars.png" alt="oars icon">
+                <h2>Rapids</h2>
+                <div id="Background"></div>
+
+            </section>
+            <img class="mountains" src="./Dry Oar Boating_files/rsz_mountains.jpg" alt="Misty mountains">
+            <section class="msg">
+                <h2>More than just the thrill.</h2>
+                <p>Enjoy breathtaking scenery. From valleys, meadows, mountains, rivers, high peaks. Its a getaway from mundane of your daily life.</p>
+                <a class="join" href="http://127.0.0.1:5500/wwr/river.html">Join Us.</a>
+
+            </section>
+        </main>
+        
+    </header>
+    <main>
+    <footer>
+        <h3>Dry Oar © 20XX - Macaulay Ejodamen Jr</h3>
+        <h3><a href="http://127.0.0.1:5500/wwr/site-plan-rafting.html">Site Plan</a></h3>
+        <h3><a href="http://127.0.0.1:5500/wwr/contactus.html">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://facebook.com/" target="_blank">
+                <img src="./Dry Oar Boating_files/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com/">
+                <img src="./Dry Oar Boating_files/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com/">
+                <img src="./Dry Oar Boating_files/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+    </main>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
