@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
+
+
 #content {
     max-width: 1600px;
     text-align: center;
@@ -6,21 +10,32 @@
 
 nav a {
     text-align: center;
-    background-color: whitesmoke;
+    background-color: steelblue;
     text-decoration: none;
+    font-family: "Rock Salt";
+    padding: 15px;
+    color: white;
+    margin: 35px;
 }
 
-#hero-msg h1 {
-    text-align: center;
-    width: 100px;
+a:hover {
     color: black;
 }
 
-#hero-msg h4 {
+body {
+    font-family: "Roboto", Tahoma, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
     text-align: center;
-    width: 100px;
-    color: darkblue;
 }
+h2 {
+    margin: 0;
+}
+
+
+
+
 
 #hero-img {
     width: 100%;
@@ -34,6 +49,11 @@ main section {
     text-align: center;
     background-color: white;
 }
+main section img {
+    box-sizing: border-box;
+}
+
+ 
 
 #background {
     height: 725px;
@@ -43,27 +63,31 @@ main section {
 body {
     background-color: white;
 }
-
-header {
-    background-color: gray;
-    color: black;
+.home-title {
+    margin-top: 20px;
+    text-align: center;
+    color: #4682b4;
 }
 
-nav a:hover {
-    background-color: black;
-    color: white;
-}
 
 .book {
     background-color: white;
-    color: darkblue;
+    color: solid steelblue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join {
     background-color: aliceblue;
-    color: darkblue;
+    color: solid steelblue;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -71,22 +95,35 @@ nav a:hover {
     color: black;
 }
 
-.msg {
+.msg p {
     background-color: white;
-    color: azure;
+    color: solid #4682b4;
+    font-size: 0.8em;
+    padding-bottom: 15px;
+}
+.msg {
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
-    background-color: white;
-    color: black;
+    background-color: steelblue;
+    color: white;
+    margin-top: 200px;
 }
 
 .logo {
     width: 80px;
+    padding: 10px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .join :hover {
@@ -94,6 +131,10 @@ footer {
 }
 footer a {
     text-decoration: none;
+    padding: 25px 50px;
+}
+footer .social img {
+    padding-top: 15px;
 }
 footer h3 a:hover {
     text-decoration: underline;
@@ -101,8 +142,23 @@ footer h3 a:hover {
 main {
     background-color: white;
 }
+#h3 {
+    text-align: center;
+    font-size: 80px;
+    color: steelblue;
+}
 
-
-
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapid-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid steelblue;
+}
 
 
