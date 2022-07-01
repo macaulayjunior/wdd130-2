@@ -5,7 +5,7 @@ h1 {
 
 nav {
   text-align: center;
-    background-color: purple;
+    background-color: pink;
     padding: 25px;
   
   }
@@ -14,8 +14,11 @@ nav {
     color: steelblue;
   }
 #active {
-  background-color: black;
-  color: purple;
+  color: black;
+}
+
+#active:hover {
+  color: steelblue;
 }
   a {
     color: white;
@@ -56,4 +59,7 @@ nav {
   }
   body {
     margin: 0;
+  }
+  .byu {
+    color: black;
   }
